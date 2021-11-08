@@ -54,6 +54,7 @@ class ActivitySugerencia : AppCompatActivity() {
             val llamada : APIService = getRetrofit().create(APIService::class.java)
 
             llamada.getActivityByType(type).enqueue(object : Callback<GetActividad> {
+
                 override fun onResponse(call: Call<GetActividad>, response: Response<GetActividad>) {
                     Log.i("MainActivity", response.toString())
 

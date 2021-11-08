@@ -24,7 +24,7 @@
                android:id="@+id/btn_closePageTerm"
                android:layout_width="50dp"
                android:layout_height="50dp"
-               android:layout_marginStart="332dp"
+               android:layout_marginStart="296dp"
                android:layout_marginTop="16dp"
                android:background="@drawable/ic_close_term"
                app:layout_constraintStart_toStartOf="parent"
@@ -58,7 +58,7 @@
 
            <TextView
                android:id="@+id/tv_pageTermsText"
-               android:layout_width="350sp"
+               android:layout_width="320sp"
                android:layout_height="wrap_content"
                android:layout_marginStart="28dp"
                android:layout_marginTop="12dp"

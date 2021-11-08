@@ -17,9 +17,6 @@ class ActivityActividades : AppCompatActivity() {
         binding = ActivityActividadesBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //val listaActividades = listOf<String>("Education", "Recreational", "Social", "Diy", "Charity", "Cooking", "Relaxation", "Music", "Busywork")
-
-
         val listActivityModel = listOf<AdapterDataModel>(
              AdapterDataModel("Education","education")
             ,AdapterDataModel("Recreational","recreational")
@@ -34,8 +31,6 @@ class ActivityActividades : AppCompatActivity() {
         binding.recyclerActividades.layoutManager = LinearLayoutManager(this)
         binding.recyclerActividades.addItemDecoration(DividerItemDecoration(this,DividerItemDecoration.VERTICAL))
         binding.recyclerActividades.adapter = AdapterActividades(listActivityModel)
-
-
 
     }
 

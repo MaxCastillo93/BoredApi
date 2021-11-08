@@ -11,6 +11,11 @@
         <entry key="..\:/Users/Maxi/Desktop/Proyectos/BoredApi/app/src/main/res/layout/item_actividad.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Maxi/Desktop/Proyectos/BoredApi/app/src/main/res/layout/item_loading.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Maxi/Desktop/Proyectos/BoredApi/app/src/main/res/menu/menu_random.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/activity_actividades.xml" value="0.13518518518518519" />
+        <entry key="app/src/main/res/layout/activity_random.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_sugerencia.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_terms.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/item_actividad.xml" value="0.25" />
       </map>
     </option>
   </component>
